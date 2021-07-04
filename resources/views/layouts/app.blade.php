@@ -35,7 +35,7 @@
     @if (isset($title))
     <title>{{ $title }}</title>
     @else
-    <title>Srilankan Local Authorities</title>
+    <title>Srilankan Divisional Secretariats</title>
     @endif
 
     <link href="{{ asset('assets/lib/font-awesome/css/font-awesome.css') }}" rel="stylesheet">
