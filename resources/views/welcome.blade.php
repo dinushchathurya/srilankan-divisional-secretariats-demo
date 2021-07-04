@@ -54,7 +54,7 @@
         var province = $(this).val();
         if (province) {
             $.ajax({
-                url: "{{ config('app.url') }}get/district/province/" + province, 
+                url: "{{ config('app.url') }}/get/district/province/" + province, 
                 type: "GET", 
                 dataType: "json", 
                 beforeSend: function() {
@@ -77,7 +77,7 @@
         var district = $(this).val();
         if (district) {
             $.ajax({
-                url: "{{ config('app.url') }}get/authority/district/" + district, 
+                url: "{{ config('app.url') }}/get/authority/district/" + district, 
                 type: "GET", 
                 dataType: "json", 
                 beforeSend: function() {
