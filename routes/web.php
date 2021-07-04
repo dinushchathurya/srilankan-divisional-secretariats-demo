@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [HomeController::class, 'index']);
+Route::get('/get/district/province/{name}' , [HomeController::class, 'getDistricts']);
+Route::get('/get/authority/district/{name}' , [HomeController::class, 'getAuthority']);
+Route::get('/documentation', [HomeController::class, 'documentation']);
