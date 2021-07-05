@@ -91,7 +91,6 @@
 
     <script src="{{ asset('assets/js/bracket.js') }}"></script>
     <script src="{{ asset('assets/js/ResizeSensor.js') }}"></script>
-    <script src="{{ asset('assets/js/dashboard.js') }}"></script>
 
     @yield('js')
 
