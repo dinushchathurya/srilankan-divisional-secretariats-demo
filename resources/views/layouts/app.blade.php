@@ -79,7 +79,6 @@
     <script src="{{ asset('assets/lib/jquery-ui/jquery-ui.js') }}"></script>
     <script src="{{ asset('assets/lib/jquery-switchbutton/jquery.switchButton.js') }}"></script>
     <script src="{{ asset('assets/lib/peity/jquery.peity.js') }}"></script>
-    <script src="{{ asset('assets/lib/chartist/chartist.js') }}"></script>
     <script src="{{ asset('assets/lib/jquery.sparkline.bower/jquery.sparkline.min.js') }}"></script>
     <script src="{{ asset('assets/lib/d3/d3.js') }}"></script>
     <script src="{{ asset('assets/lib/rickshaw/rickshaw.min.js') }}"></script>
